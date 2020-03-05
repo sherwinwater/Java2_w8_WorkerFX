@@ -89,3 +89,45 @@ public class Main extends Application {
     }
 
 }
+
+/*
+WorkerFX Homework
+1.	create a JavaFX project called WorkerFX
+2.	to the project add a content folder
+3.	to content, add Worker class
+4.	Above the start method, add a private ArrayList called workerList that holds Worker objects
+5.	Above the start method, add a private
+a.	TextField called txtID
+b.	Label called lblID with the text “Worker ID:”
+c.	TextField called txtHours
+d.	Label called lblHours with the text “Hours Worked:”
+e.	TextField called txtRate
+f.	Label called lblRate with the text “Hourly Rate:”
+g.	Button btnAdd with the text “Add Worker”
+h.	Button btnDisplay with the text “Display Workers”
+6.	Below the start method, add a private method called addPane that 
+a.	Does not take any parameters
+b.	Returns a GridPane object that contains all of the nodes found above the start method
+c.	Is used by the Scene object
+7.	Below the start method, addWoker method
+a.	No para, no return
+b.	Worker object based on the data input
+c.	Add the worker to ArrayList
+d.	Is called by btnAdd click event;
+8.	When the btnAdd is clicked
+a.	All the text is cleard (clear)
+b.	The txtID gets focus (requestFocus)
+9.	To the content folder (should be in a separate folder, ont content)
+a.	Add a class called DisplayStage that is a child of the Stage class
+10.	D
+11.	To DisplayStage add a private method called getScene that
+a.	No para
+b.	Returns a Scene object
+c.	Builds a String that contains all of the data found in the workerList
+d.	Has a textArea called txtDisplay that contains the built String
+e.	Has a Pane object that references txtDisplay
+f.	Has a Scene object that reference the Pane object
+12.	In the DisplayStage constructor
+a.	Use the getScene method to add a Scene to the DisplayStage;
+
+*/
